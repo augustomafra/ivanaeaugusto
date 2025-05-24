@@ -219,14 +219,14 @@
 		const linkFormulario = document.getElementById("link-formulario");
 		if (linkFormulario) {
 			if ("c29sdGVpcmVz" === id || "b3NjYXNhZGVz" === id) {
-				linkFormulario.href = "https://docs.google.com/forms/u/0/";
+				linkFormulario.href = "https://docs.google.com/forms/d/e/1FAIpQLSf2siFzK2fFxPpIT9S35MyvWpGPn7FfoaC5_9g6PW91SKiiUA/viewform?usp=dialog";
 				const galeria = document.getElementById("fh5co-gallery-list").children;
 				for (var i = 0; i < galeria.length; i++) {
 					galeria[i].children[0].href = "presente" + (i + 1) + ".html?id=" + id;
 				}
 			}
 			if ("b3NjYXNhZGVz" === id) {
-				linkFormulario.href = "https://docs.google.com/forms/u/0/";
+				linkFormulario.href = "https://docs.google.com/forms/d/e/1FAIpQLSeWrtM9V7-Pxy1Uayl-rVddmLZqLxCPejGq9Apl11nAIy81QQ/viewform?usp=dialog";
 			}
 		}
 		const botaoVoltar = document.getElementById("botao-voltar");
