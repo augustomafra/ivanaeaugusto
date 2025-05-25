@@ -467,7 +467,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap p, #fh5co-counter .event-wrap span,
 #fh5co-event .event-wrap p,
-#fh5co-event .event-wrap span {
+#fh5co-event .event-wrap span,
+#fh5co-event .event-wrap a {
   display: block;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -1274,6 +1275,7 @@ form label {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  object-fit: cover;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
   border: none;
