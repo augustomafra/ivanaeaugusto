@@ -231,7 +231,7 @@
 		}
 		const botaoVoltar = document.getElementById("botao-voltar");
 		if (botaoVoltar) {
-			botaoVoltar.href = botaoVoltar.href + "?id=" + id + "#fh5co-gallery";
+			botaoVoltar.href = botaoVoltar.href + "?id=" + id;
 		}
 		const videotape = document.getElementById("videotape");
 		if (videotape) {
